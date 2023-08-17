@@ -440,14 +440,12 @@ button {
 }
 .modal-form-field {
   display: block;
-  display: flex;
-  flex-direction: column;
-  position: relative;
   text-align: left;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.48px;
   margin-bottom: 4px;
+  color: var(--subtle-text);
 }
 .modal-form-input {
   width: 100%;
@@ -456,6 +454,9 @@ button {
   border: 1px solid var(--modal-overlay);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding-left: 38px;
+}
+.modal-form-input-wrapper {
+  position: relative;
 }
 .modal-form-icon {
   position: absolute;
@@ -541,6 +542,7 @@ button {
   color: var(--white-background);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-size: 16px;
+  line-height: 1.5
 }
 .modal-form-button-wrapper {
   display: flex;
@@ -615,7 +617,7 @@ button {
   color: var(--white-background);
   margin-bottom: 16px;
 }
-.form-footer-wrapper {
+.form-footer {
   display: flex;
   gap: 24px;
 }
