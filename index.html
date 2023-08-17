@@ -426,7 +426,7 @@
         <div class="form-footer-container">
           <p class="form-footer-title">Subscribe</p>
           <form class="form-footer">
-            <label for="email">
+            <label class="form-footer-label" for="email">
               <input
                 class="form-footer-input"
                 type="email"
@@ -437,7 +437,7 @@
             </label>
             <button type="submit" class="form-footer-button-send">
               Subscribe
-              <svg class="form-footer-icon">
+              <svg class="form-footer-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
@@ -468,7 +468,7 @@
               <input
                 class="modal-form-input"
                 type="text"
-                name="name"
+                name="user-name"
                 id="user-name"
                 required
               />
@@ -483,7 +483,7 @@
               <input
                 class="modal-form-input"
                 type="tel"
-                name="tel"
+                name="user-phone"
                 id="user-phone"
                 required
               />
@@ -498,7 +498,7 @@
               <input
                 class="modal-form-input"
                 type="email"
-                name="email"
+                name="user-email"
                 id="user-email"
                 required
               />
@@ -507,11 +507,11 @@
               </svg>
             </div>
           </div>
-          <div class="modal-form-wrapper">
+          <div class="modal-form-textarea-wrapper">
             <label class="modal-form-field" for="user-comment">Comment</label>
             <textarea
               class="modal-form-textarea"
-              name="comment"
+              name="user-comment"
               id="user-comment"
               placeholder="Text input"
             ></textarea>
